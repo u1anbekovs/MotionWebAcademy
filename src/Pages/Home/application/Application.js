@@ -8,8 +8,8 @@ const Application = () => {
                 <div className="application">
 
                     <div className="application--text">
-                        <h1>Оставить заявку на обучение <br/> или получить консультацию</h1>
-                        <p>Менеджер свяжется с вами в течение 30 минут <br/> и ответит на все интересующие вопросы.</p>
+                        <h1>Оставить заявку на обучение <br/> или получить консультацию</h1>
+                        <p>Менеджер свяжется с вами в течение 30 минут <br/> и ответит на все интересующие вопросы.</p>
                     </div>
 
                     <div className="application--inputs">
@@ -18,7 +18,7 @@ const Application = () => {
                         <input type="email" placeholder="Электронная почта"/>
                         <div className="application--inputs__label">
                             <input id="checkbox" type="checkbox"/>
-                            <label htmlFor="checkbox">Я соглашаюсь на обработку персональных данных</label>
+                            <label htmlFor="checkbox">Я соглашаюсь на обработку персональных данных</label>
                         </div>
                         <button>Оставить заявку</button>
                     </div>

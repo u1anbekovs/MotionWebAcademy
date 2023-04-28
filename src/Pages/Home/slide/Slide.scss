@@ -1,0 +1,29 @@
+#slide {
+  background: #EFEFEF;
+  padding: 100px 0;
+
+  .slide {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    h1 {
+      padding-left: 6.5%;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 36px;
+      color: #000000;
+    }
+
+    &--sliders {
+      overflow: hidden;
+      width: 60%;
+
+      img {
+        width: 85%;
+        cursor: pointer;
+      }
+    }
+  }
+}

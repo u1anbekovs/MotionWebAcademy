@@ -1,0 +1,102 @@
+#courses {
+  .courses {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--cards {
+      background: linear-gradient(to top, #FFFFFF 75%, #FFA800 25%);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      border-radius: 30px;
+      width: 320px;
+      padding: 30px;
+      margin: 0 20px;
+
+      img {
+        position: relative;
+        width: 170px;
+        bottom: 130px;
+      }
+
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        color: #030303;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        color: rgba(27, 27, 27, 0.8);
+      }
+
+      &__span {
+        display: flex;
+        flex-wrap: wrap;
+
+        span {
+          transition: 0.5s all;
+          padding: 6px 10px;
+          border: 1px solid #000000;
+          border-radius: 30px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 130.02%;
+          color: #000000;
+
+          &:hover {
+            border: 1px solid #4886FF;
+            color: #4886FF;
+          }
+        }
+      }
+
+      &__btn {
+        cursor: pointer;
+        padding: 10px 100px;
+        transition: 0.5s all;
+        background: transparent;
+        border: 1px solid #EC3025;
+        border-radius: 30px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #EC3025;
+
+        &:hover {
+          background: rgba(236, 48, 37, 0.2);
+        }
+      }
+
+      &__btn1 {
+        cursor: pointer;
+        padding: 10px 76.5px;
+        transition: 0.5s all;
+        background: #EC3025;
+        border-radius: 44px;
+        border: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+        &:hover {
+          background: #090A0C;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
