@@ -1,0 +1,76 @@
+#header {
+  background: #F8F8F8;
+  backdrop-filter: blur(12.5px);
+  padding: 35px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--pages {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 30%;
+
+      a {
+        transition: 0.5s all;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        color: rgba(27, 27, 27, 0.6);
+
+        &:focus {
+          color: #1B1B1B;
+        }
+
+        &:hover {
+          color: #EC3025;
+        }
+      }
+
+      .active {
+        color: #1B1B1B;
+      }
+    }
+
+    &--languages {
+      display: flex;
+      align-items: center;
+
+      a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: rgba(27, 27, 27, 0.6);
+
+        &:focus {
+          color: #1B1B1B;
+        }
+      }
+
+      &__icon {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+.courses:hover .ul {
+  transition: 0.5s ease-in-out;
+  display: block;
+}
+
+.ul {
+  transition: 0.5s all;
+  display: none;
+  position: absolute;
+  background: #F8F8F8;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.35);
+  border-radius: 0 20px 20px 20px;
+  padding: 20px 30px;
+  margin-left: 30px;
+}
