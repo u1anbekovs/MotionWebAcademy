@@ -6,10 +6,14 @@ import Student from "./studentProjects/Student";
 import Choice from "./choice/Choice";
 import Trial from "./trial/Trial";
 import Courses from "./courses/Courses";
+import HeroHome from "./heroHome/HeroHome";
+import DetailUs from "./detailUs/DetailUs";
 
 const Home = () => {
     return (
         <div>
+            <HeroHome/>
+            <DetailUs/>
             <Courses/>
             <Trial/>
             <Choice/>

@@ -103,9 +103,10 @@
       left: 215px;
       bottom: 160px;
       cursor: pointer;
+      color: gray;
 
       &:active {
-        color: gray;
+        color: red;
       }
     }
 
@@ -144,7 +145,7 @@
     button {
       transition: 0.5s all;
       cursor: pointer;
-      padding: 10px 35%;
+      padding: 10px 30%;
       background: #EC3025;
       border-radius: 44px;
       border: none;

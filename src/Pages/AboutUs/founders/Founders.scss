@@ -1,0 +1,47 @@
+#founders {
+  padding: 100px 0;
+  .founders {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    &--carp {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      h2 {
+        padding-bottom: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 40px;
+        color: #EC3025;
+      }
+
+      h3 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        color: #000000;
+      }
+
+      h4 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 140%;
+        color: rgba(27, 27, 27, 0.8);
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        color: rgba(27, 27, 27, 0.8);
+      }
+    }
+  }
+}

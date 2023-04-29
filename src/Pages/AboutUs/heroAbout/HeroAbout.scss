@@ -1,0 +1,34 @@
+#heroAbout {
+  .heroAbout {
+    &--texts {
+      background: linear-gradient(289.3deg, rgba(19, 19, 19, 0.3) 17.11%, rgba(28, 28, 28, 0.261) 100%);
+      border-radius: 20px;
+      padding: 120px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      h1 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 128px;
+        line-height: 128px;
+        color: #FFFFFF;
+
+        span {
+          color: #EC3025;
+        }
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 140%;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

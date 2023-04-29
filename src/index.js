@@ -9,7 +9,7 @@ import {store} from "./Redux";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {Suspense} from "react"
-import "./i18n"
+import "./translate/i18n"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

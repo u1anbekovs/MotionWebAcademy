@@ -21,16 +21,16 @@ const Student = () => {
                     <img src={studentImg2} alt=""/>
                     <img src={studentImg3} alt=""/>
                     {
-                        student ? <img className="student--image" src={studentImg} alt=""/> : ""
+                        student ? <img src={studentImg} alt=""/> : ""
                     }
                     {
-                        student ? <img className="student--image" src={studentImg1} alt=""/> : ""
+                        student ? <img src={studentImg1} alt=""/> : ""
                     }
                     {
-                        student ? <img className="student--image" src={studentImg2} alt=""/> : ""
+                        student ? <img src={studentImg2} alt=""/> : ""
                     }
                     {
-                        student ? <img className="student--image" src={studentImg3} alt=""/> : ""
+                        student ? <img src={studentImg3} alt=""/> : ""
                     }
 
                     <p onClick={() => setStudent(!student)}>{student ? "Повернуть" : "Показать ещё"}</p>
