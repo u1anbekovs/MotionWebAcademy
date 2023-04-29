@@ -1,7 +1,7 @@
 #header {
   background: #F8F8F8;
   backdrop-filter: blur(12.5px);
-  padding: 35px;
+  padding: 30px 50px;
 
   .header {
     display: flex;
@@ -17,7 +17,7 @@
       a {
         transition: 0.5s all;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 15px;
         line-height: 30px;
         color: rgba(27, 27, 27, 0.6);
@@ -42,7 +42,7 @@
 
       a {
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 15px;
         line-height: 18px;
         color: rgba(27, 27, 27, 0.6);
@@ -62,12 +62,14 @@
 .courses:hover .ul {
   transition: 0.5s ease-in-out;
   display: block;
+  z-index: 1000;
 }
 
 .ul {
   transition: 0.5s all;
   display: none;
   position: absolute;
+  z-index: 1000;
   background: #F8F8F8;
   box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.35);
   border-radius: 0 20px 20px 20px;

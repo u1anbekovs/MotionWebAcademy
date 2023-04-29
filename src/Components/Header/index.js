@@ -16,18 +16,18 @@ const Header = () => {
                     <img src={logoHeader} alt=""/>
 
                     <div className="header--pages">
-                        <NavLink to={`/`}>Главное</NavLink>
-                        <NavLink to={`/about-us`}>О нас</NavLink>
+                        <NavLink to={`/`} onClick={() => window.scroll(0, 0)}>Главное</NavLink>
+                        <NavLink to={`/about-us`} onClick={() => window.scroll(0, 0)}>О нас</NavLink>
                         <div className="courses">
                             <a href="#">О курсах</a>
                             <div className="ul">
-                                <NavLink to={`/front-end`}>Frontend</NavLink> <br/>
-                                <NavLink to={`/ui-ux`}>UI/UX design</NavLink> <br/>
-                                <NavLink to={`/back-end`}>Backend</NavLink>
+                                <NavLink to={`/front-end`} onClick={() => window.scroll(0, 0)}>Frontend</NavLink> <br/>
+                                <NavLink to={`/ui-ux`} onClick={() => window.scroll(0, 0)}>UI/UX design</NavLink> <br/>
+                                <NavLink to={`/back-end`} onClick={() => window.scroll(0, 0)}>Backend</NavLink>
                             </div>
                         </div>
-                        <NavLink to={`/club`}>Клуб</NavLink>
-                        <NavLink to={`/contacts`}>Контакты</NavLink>
+                        <NavLink to={`/club`} onClick={() => window.scroll(0, 0)}>Клуб</NavLink>
+                        <a href="#footer">Контакты</a>
                     </div>
 
                     <div className="header--languages">
