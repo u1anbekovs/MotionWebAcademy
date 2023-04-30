@@ -1,0 +1,58 @@
+#talking {
+  padding: 100px;
+
+  .talking {
+    &--block {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+
+      h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 40px;
+        color: #020202;
+
+        span {
+          color: #EC3025;
+        }
+      }
+
+      p {
+        width: 60%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 130%;
+        color: rgba(27, 27, 27, 0.8);
+      }
+    }
+
+    &--block1 {
+      margin-top: 80px;
+      padding: 50px 0;
+      border: 2px solid #EC3025;
+      border-radius: 125px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 64px;
+        color: #EC3025;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 130%;
+        color: rgba(27, 27, 27, 0.8);
+      }
+    }
+  }
+}

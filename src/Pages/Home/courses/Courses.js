@@ -4,6 +4,10 @@ import frontEndImg from "./../../../img/frontendImg.svg"
 import uiuxImg from "./../../../img/uiuxImg.svg"
 import backendImg from "./../../../img/backendImg.svg"
 
+
+
+
+
 const Courses = () => {
     return (
         <section id="courses">
@@ -27,6 +31,7 @@ const Courses = () => {
                         <button className="courses--cards__btn">Подробнее</button>
                         <button className="courses--cards__btn1">Оставить заявку</button>
                     </div>
+
                     <div className="courses--cards">
                         <img src={uiuxImg} alt=""/>
                         <h1>UX/UI DESIGN</h1>
@@ -41,6 +46,8 @@ const Courses = () => {
                         <button className="courses--cards__btn">Подробнее</button>
                         <button className="courses--cards__btn1">Оставить заявку</button>
                     </div>
+
+
                     <div className="courses--cards">
                         <img src={backendImg} alt=""/>
                         <h1>BACKEND</h1>
