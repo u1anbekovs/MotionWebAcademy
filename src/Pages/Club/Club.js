@@ -1,9 +1,12 @@
 import React from 'react';
+import HeroClub from "./heroClub/HeroClub";
+import Talking from "./talking/Talking";
 
 const Club = () => {
     return (
         <div>
-            CLUB
+            <HeroClub/>
+            <Talking/>
         </div>
     );
 };

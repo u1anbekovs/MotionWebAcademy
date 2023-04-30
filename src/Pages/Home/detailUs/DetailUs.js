@@ -8,6 +8,7 @@ const DetailUs = () => {
         <section id="us">
             <div className="container">
                 <div className="us">
+
                     <div className="us--block">
                         <h1>О НАС</h1>
                         <div className="us--block__p">
