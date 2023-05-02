@@ -4,6 +4,9 @@ import studentImg from "./../../../img/Rectangle 49.svg"
 import studentImg1 from "./../../../img/Rectangle 50.svg"
 import studentImg2 from "./../../../img/Rectangle 51.svg"
 import studentImg3 from "./../../../img/Rectangle 52.svg"
+import studentImg4 from "./../../../img/Rectangle 53.svg"
+import studentImg5 from "./../../../img/Rectangle 54.svg"
+import studentImg6 from "./../../../img/Rectangle 55.svg"
 import {useState} from "react";
 
 const Student = () => {
@@ -21,19 +24,16 @@ const Student = () => {
                     <img src={studentImg2} alt=""/>
                     <img src={studentImg3} alt=""/>
                     {
-                        student ? <img src={studentImg} alt=""/> : ""
+                        student ? <img src={studentImg6} alt=""/> : ""
                     }
                     {
-                        student ? <img src={studentImg1} alt=""/> : ""
+                        student ? <img src={studentImg4} alt=""/> : ""
                     }
                     {
-                        student ? <img src={studentImg2} alt=""/> : ""
-                    }
-                    {
-                        student ? <img src={studentImg3} alt=""/> : ""
+                        student ? <img src={studentImg5} alt=""/> : ""
                     }
 
-                    <p onClick={() => setStudent(!student)}>{student ? "Повернуть" : "Показать ещё"}</p>
+                    <p onClick={() => setStudent(!student)}>{student ? "Свернуть" : "Показать ещё"}</p>
 
                 </div>
             </div>

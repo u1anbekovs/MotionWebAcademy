@@ -1,34 +1,26 @@
 import React, {useState} from 'react';
 import "./Trial.scss"
 import cardTrial from "./../../../img/cardTrial.svg"
-import smiling from "./../../../img/smilingP.svg"
-import {IoIosCloseCircle} from "react-icons/io"
+import Modal from "../../../modal/Modal";
 
 const Trial = () => {
 
     const [start, setStart] = useState(true)
-
+    const startForm = () => {
+        setStart(true)
+    }
     return (
         <section id="trial">
 
             <div className={start ? "modal" : "modal active"} onClick={() => setStart(true)}>
-                <div className="modal--content" onClick={e => e.stopPropagation()}>
-                    <img src={smiling} alt=""/>
-                    <p onClick={() => setStart(true)}><IoIosCloseCircle/></p>
-
-                    <input type="text" placeholder="Имя"/>
-                    <input type="number" placeholder="Номер"/>
-                    <div className="modal--content__label">
-                        <input id="checkbox1" type="checkbox"/>
-                        <label htmlFor="checkbox1">Я соглашаюсь на обработку персональных данных</label>
-                    </div>
-                    <button>Записаться</button>
-                </div>
+                <Modal startForm={startForm}/>
             </div>
+
 
             <div className="container">
                 <div className="trial">
                     <img src={cardTrial} alt=""/>
+
 
                     <div className="trial--block">
                         <div className="trial--block__text">
@@ -41,6 +33,8 @@ const Trial = () => {
                             <button onClick={() => setStart(false)}>Записаться</button>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </section>

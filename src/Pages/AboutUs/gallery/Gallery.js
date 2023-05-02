@@ -29,11 +29,8 @@ const Gallery = () => {
                     {
                         gallery ? <img src={gallery3} alt=""/> : ""
                     }
-                    {
-                        gallery ? <img src={gallery4} alt=""/> : ""
-                    }
 
-                    <p onClick={() => setGallery(!gallery)}>{gallery ? "Повернуть" : "Показать ещё"}</p>
+                    <p onClick={() => setGallery(!gallery)}>{gallery ? "Свернуть" : "Показать ещё"}</p>
                 </div>
             </div>
             <img className="temir" src={temir} alt=""/>
