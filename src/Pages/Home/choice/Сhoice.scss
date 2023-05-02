@@ -73,3 +73,53 @@
     }
   }
 }
+@media (max-width: 1024px) {
+  #choice .choice h1 {
+    width: 171%;
+    font-size: 32px;
+  }
+}
+@media (max-width: 876px) {
+  #choice .choice {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+
+}
+@media (max-width: 415px) {
+  #choice .choice--card__details--text p {
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    color: rgba(27, 27, 27, 0.8);
+    width: 119%;
+    margin-left: -40px;
+  }
+}
+@media (max-width: 412px) {
+
+}
+@media (max-width: 391px) {
+
+}
+@media (max-width: 376px) {
+  #choice .choice--card__details--text p {
+    width: 140%;
+  }
+}
+@media (max-width: 320px) {
+  #choice .choice h1 {
+    font-size: 30px;
+  }
+  #choice .choice--card__details {
+    margin: 10px 19px;
+    width: 80%;
+  }
+}
