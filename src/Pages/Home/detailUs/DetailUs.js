@@ -22,7 +22,6 @@ const DetailUs = () => {
                     </div>
 
                     <div className="us--block1">
-
                         <div>
                             <h1>2000+</h1>
                             <p>Выпусников</p>

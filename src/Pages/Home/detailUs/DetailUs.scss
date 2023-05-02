@@ -71,3 +71,73 @@
     }
   }
 }
+@media (max-width: 1024px) {
+  #us .us--block1 {
+    padding: 35px 0;
+
+  }
+}
+@media (max-width: 876px) {
+  #us .us--block1 {
+    padding: 20px 0;
+  }
+  #us .us--block1 h1 {
+    font-size: 45px;
+    padding-left: 15%;
+  }
+  #us .us--block1 p {
+    font-size: 19px;
+  }
+}
+@media (max-width: 800px) {
+  #us .us--block1 h1 {
+    font-size: 38px;
+    padding-left: 20%;
+  }
+  #us .us--block1 {
+    padding: 10px 0;
+  }
+  #us .us--block1 p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 415px) {
+  #us .us--block {
+    flex-direction: column;
+    margin-left: -85px;
+    margin-right: 25px;
+  }
+  #us .us--block__p p {
+    width: 260%;
+    font-size: 17px;
+  }
+  #us .us--block h1 {
+    margin-bottom: 20px;
+  }
+  #us .us--block1{
+    width: 311px;
+    height: 171px;
+    border-radius: 30px;
+    margin-left: -68px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 412px){
+
+}
+@media (max-width: 391px) {
+
+}
+@media (max-width: 376px) {
+}
+@media (max-width: 320px) {
+  #us .us--block1 {
+    width: 225px;
+    height: 171px;
+  }
+  #us .us--block1 h1 {
+    font-size: 30px;
+    padding-left: 20%;
+  }
+
+}
